@@ -23,16 +23,9 @@ info:
     - informatívne overovať podpisy na elektronicky podpísaných dokumentoch,
     - vyhľadávať subjekty (právnické a fyzické osoby) za účelom zasielania správ (dostupné len pre OVM).
 
-  contact:
-    name: Služby Slovensko.Digital, s.r.o.
-    url: https://ekosystem.slovensko.digital
-    email: ekosystem@slovensko.digital
-
 servers:
-  - description: Server v ÚPVS FIX prostredí
-    url: https://fix.slovensko-sk-api.staging.slovensko.digital
-  - description: Server v ÚPVS DEV prostredí
-    url: https://dev.slovensko-sk-api.staging.slovensko.digital
+- description: Server v ÚPVS DEV prostredí
+  url: https://upvs.dev.filipsladek.com
 
 # TODO check if response codes specified here match response codes in API controllers
 # TODO consider using 201 when creating stuff, for example return 201 when successfully sending sktalk message: receive_result == 0 (a resource -- message is created) but return 202 when unsuccessfully sending sktalk message: receive_result != 0
