@@ -11,21 +11,13 @@ info:
     - podávať podania v mene subjektu, ktorý sa prihlásil cez ÚPVS alebo pomocou technického účtu,
     - validovať či je určitá správa vo formáte SKTalk validná voči aktuálnej definícii formuláru (podporná funkcia).
 
-  contact:
-    name: Slovensko.Digital
-    url: https://slovensko.digital
-    email: ekosystem@slovensko.digital
-
   license:
     name: European Union Public License 1.2
     url: https://opensource.org/licenses/EUPL-1.2
 
 servers:
-- description: Server v ÚPVS PROD prostredí
-  url: https://slovensko-sk-api.ekosystem.slovensko.digital
-
 - description: Server v ÚPVS DEV prostredí
-  url: https://slovensko-sk-api.ekosystem.staging.slovensko.digital
+  url: https://upvs.dev.filipsladek.com
 
 paths:
   /login:
