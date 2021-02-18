@@ -25,7 +25,7 @@ info:
 
 servers:
 - description: Server v ÚPVS DEV prostredí
-  url: https://upvs.dev.filipsladek.com
+  url: https://dev.upvs.einvoice.mfsr.sk
 
 # TODO check if response codes specified here match response codes in API controllers
 # TODO consider using 201 when creating stuff, for example return 201 when successfully sending sktalk message: receive_result == 0 (a resource -- message is created) but return 202 when unsuccessfully sending sktalk message: receive_result != 0
